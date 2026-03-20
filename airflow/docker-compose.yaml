@@ -56,6 +56,9 @@ x-airflow-common:
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: CeleryExecutor
+    AWS_ACCESS_KEY_ID: 'AKIA34KM5ZK7WK2E75M5'
+    AWS_SECRET_ACCESS_KEY: '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'
+    AWS_DEFAULT_REGION: 'us-east-1'
     AIRFLOW__CORE__AUTH_MANAGER: airflow.providers.fab.auth_manager.fab_auth_manager.FabAuthManager
     AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
     AIRFLOW__CELERY__RESULT_BACKEND: db+postgresql://airflow:airflow@postgres/airflow
