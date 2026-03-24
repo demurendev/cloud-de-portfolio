@@ -1,0 +1,33 @@
+[0m16:53:56.258807 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106c90050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113e33910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113e1fcd0>]}
+
+
+============================== 16:53:56.264107 | 47d4a04a-00b5-4e0f-a87a-f087f55a9c50 ==============================
+[0m16:53:56.264107 [info ] [MainThread]: Running with dbt=1.11.7
+[0m16:53:56.264414 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'version_check': 'True', 'log_format': 'default', 'debug': 'False', 'log_cache_events': 'False', 'write_json': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt init stock_market_dbt', 'use_experimental_parser': 'False', 'cache_selected_only': 'False', 'empty': 'None', 'quiet': 'False', 'profiles_dir': '/Users/deborahdemuren/.dbt', 'indirect_selection': 'eager', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'partial_parse': 'True', 'warn_error': 'None'}
+[0m16:53:56.273369 [info ] [MainThread]: Creating dbt configuration folder at /Users/deborahdemuren/.dbt
+[0m16:53:56.274326 [debug] [MainThread]: Starter project path: /opt/homebrew/lib/python3.11/site-packages/dbt/include/starter_project
+[0m16:53:56.277611 [info ] [MainThread]: 
+Your new dbt project "stock_market_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m16:53:56.277791 [info ] [MainThread]: Setting up your profile.
+[0m16:54:53.983937 [debug] [MainThread]: Redshift adapter: Setting redshift_connector to ERROR
+[0m16:54:53.986304 [debug] [MainThread]: Redshift adapter: Setting redshift_connector.core to ERROR
+[0m17:05:48.406314 [info ] [MainThread]: Profile stock_market_dbt written to /Users/deborahdemuren/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:05:48.563967 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 712.2929, "process_in_blocks": "0", "process_kernel_time": 0.31678, "process_mem_max_rss": "117735424", "process_out_blocks": "0", "process_user_time": 1.119323}
+[0m17:05:48.568296 [debug] [MainThread]: Command `dbt init` succeeded at 17:05:48.567869 after 712.30 seconds
+[0m17:05:48.569733 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e808d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113ab2950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x113e9bf90>]}
+[0m17:05:48.570411 [debug] [MainThread]: Flushing usage events
+[0m17:05:48.900597 [debug] [MainThread]: An error was encountered while trying to flush usage events
