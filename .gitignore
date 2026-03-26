@@ -1,3 +1,6 @@
 airflow/logs/
 airflow/.env
 airflow/.env
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
